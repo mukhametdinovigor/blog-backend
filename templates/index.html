@@ -100,7 +100,7 @@
                 </div>
                 <div class="details mt-20">
                   <h3><a href="#">{{post.title}}</a></h3>
-                  <p>{{post.text}}</p>
+                  <p>{{post.text| truncatechars:200}}</p>
                   <a class="button" href="#">Read More <i class="ti-arrow-right"></i></a>
                 </div>
               </div>
@@ -131,7 +131,7 @@
                 </div>
               </div>
             </div>
-            <!-- Start Blog Post Siddebar -->
+
             <div class="col-lg-4 sidebar-widgets">
               <div class="widget-wrap">
                 <div class="single-sidebar-widget newsletter-widget">
@@ -151,7 +151,6 @@
               </div>
             </div>
           </div>
-          <!-- End Blog Post Siddebar -->
         </div>
     </section>
     <!--================ End Blog Post Area =================-->
